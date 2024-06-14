@@ -1,15 +1,19 @@
 h1 {
     font-family: "Amatic SC";/*look up how to get .ttf file fonts to render in chrome*/
+    color: #f5c0c0
 }
 
   ul {
     list-style: none;
+    font-size: 18px;
   }
+
   ul li {
     margin-bottom: 10px;
     padding-left: 25px;     /* Adjust based on image dimention */
     position: relative;
   }
+  
   ul li::before {
     /* Icon by Smashicons */
     background-image: url('bullet1.svg');
@@ -21,5 +25,3 @@ h1 {
     top: 2px;               /* Adjust for best image placement relative to text */
     width: 17px;            /* Adjust based on image width */
   }
-
-  
