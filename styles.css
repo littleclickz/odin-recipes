@@ -2,10 +2,24 @@ h1 {
     font-family: "Amatic SC";/*look up how to get .ttf file fonts to render in chrome*/
 }
 
-.bullet1 {
-    list-style-image: url('bullet1.svg');
+  ul {
+    list-style: none;
+  }
+  ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;     /* Adjust based on image dimention */
+    position: relative;
+  }
+  ul li::before {
+    /* Icon by Smashicons */
+    background-image: url('bullet1.svg');
+    background-size: cover;
+    content: "";
+    height: 17px;           /* Adjust based on image height */
+    left: 0;
+    position: absolute;
+    top: 2px;               /* Adjust for best image placement relative to text */
+    width: 17px;            /* Adjust based on image width */
   }
 
-.bullet2 {
-    list-style-image: url('bullet2.svg');
-  }
+  
