@@ -1,1 +1,3 @@
-code here
+h1 {
+    font-family: "Amatic SC";/*look up how to get .ttf file fonts to render in chrome*/
+}
