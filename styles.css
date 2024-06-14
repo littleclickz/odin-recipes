@@ -25,3 +25,11 @@ h1 {
     top: 2px;               /* Adjust for best image placement relative to text */
     width: 17px;            /* Adjust based on image width */
   }
+
+  a:link {
+    color: #f5c0c0;
+  }
+
+  a:visited {
+    color: #bbd88f
+  }
