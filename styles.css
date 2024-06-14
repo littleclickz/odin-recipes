@@ -2,10 +2,10 @@ h1 {
     font-family: "Amatic SC";/*look up how to get .ttf file fonts to render in chrome*/
 }
 
-ul.bullet1 {
+.bullet1 {
     list-style-image: url('bullet1.svg');
   }
 
-  ul.bullet2 {
+.bullet2 {
     list-style-image: url('bullet2.svg');
   }
