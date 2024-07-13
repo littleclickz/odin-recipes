@@ -1,3 +1,10 @@
+/* may need to delete @font-face section; was just trying to get special font to show in web */
+@font-face {
+  font-family: 'Amatic SC';
+  font-display: swap;
+  src: url(/home/hbahia/Downloads/Amatic_SC/) format('ttf');
+}
+/* next step: mess around with divs, padding, margins, etc. in html files */
 h1 {
     font-family: "Amatic SC";/*look up how to get .ttf file fonts to render in chrome*/
     color: #f5c0c0
